@@ -1,0 +1,29 @@
+.cab-card-principal{
+    background-color: #dadada;
+    
+}
+.cab-card-input{
+padding: 50px;
+
+}
+
+.cab-card{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+    height: 200px;
+    display: flex;
+    
+
+}
+
+.cab-btn{
+    background-color: red;
+    border-radius: 6px;
+    width: 150px;
+    height: 45px;
+    margin-left: 180px;
+}
+.cab-btn p {
+    color: #fff;
+}

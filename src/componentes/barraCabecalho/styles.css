@@ -1,0 +1,17 @@
+.cab-header-container{
+    background-color: red;
+    
+    height: 80px;
+    padding-top:1px;
+}
+.cab-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 160px;
+
+}
+.cab-container h1{
+    color: #fff;
+    font-weight: 700;
+}
