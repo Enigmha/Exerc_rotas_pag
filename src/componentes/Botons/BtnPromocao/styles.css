@@ -1,0 +1,11 @@
+.cab-btn{
+    background-color: red;
+    border-radius: 6px;
+    width: 150px;
+    height: 45px;
+    margin-left: 180px;
+}
+.cab-btn p {
+    color: #fff;
+}
+
