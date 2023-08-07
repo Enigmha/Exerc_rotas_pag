@@ -1,16 +1,20 @@
-import BarraCabecalho from "./componentes/barraCabecalho";
-import Card from "./componentes/card";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
 
 
-export default function App(){
 
-  return(
-    <>
-<BarraCabecalho />
-<Card />
+export default function App() {
+  return (
+    <BrowserRouter>
+     <Routes>
+     <Route path="/" element={<Home />}/>
+     <Route index element={<Home />} />
+     <Route path="home" element={<Home />} />
+     
 
 
+     </Routes> 
+    </BrowserRouter>
   
-    </>
   );
 }

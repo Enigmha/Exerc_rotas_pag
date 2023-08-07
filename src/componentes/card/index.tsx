@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function card(){
+export default function Card(){
 
     return(
         <div className="cab-card-principal">
